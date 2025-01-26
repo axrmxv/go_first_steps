@@ -15,7 +15,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Список имен.
-	names := []string{"Gloria", "Samantha", "Darlin"}
+	names := []string{"Alex", "Ivan", "Anna"}
 
 	// Запрос приветственных сообщений для имен.
 	messages, err := greetings.Hellos(names)
